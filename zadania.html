@@ -1,0 +1,323 @@
+﻿
+	//	-------------- ex 1 ------------
+		// let x = parseInt(prompt("intro a number from 0 to 9"))
+		// switch(x){
+		// case 0:
+			
+		// 	alert("zero")
+		// break;
+		// case 1:
+		
+		// alert("one")
+		// 	break;
+		// case 2:
+		
+		// alert("two")
+		// 	break;
+		// case 3:
+			
+		// 	alert("three")
+		// 	break;
+		// case 4:
+			
+		// 	alert("four")
+		// 	break;
+		// case 5:
+			
+		// 	alert("five")
+		// 	break;
+		// case 6:
+			
+		// 	alert("six")
+		// 	break;
+		// case 7:
+			
+		// 	alert("seven")
+		// 	break;
+		// case 8:
+		// 	alert('eight')
+		// 	break;
+		// case 9:
+		// 	alert('nine')
+		// 	break;
+		// default:
+		// 	alert('this is not a number')
+
+// }
+   // -------------ex 2---------------------------
+// let a = parseInt(prompt('a = '))
+// let b = parseInt(prompt('b = '))
+// let sum = 0;
+// for(let i = a; i <= b; i++){
+// 	if(i % 2 === 0){
+// 		sum += i;
+// 	}
+// }
+// alert(sum)
+//	------------ ex 3 ----------------
+
+// let a = parseInt(prompt('a = '))
+// let b = parseInt(prompt('b = '))
+// let c = parseInt(prompt('c = '))
+// console.log(Math.max(a,Math.max(b,c)));
+// console.log(Math.min(a,Math.min(b,c)));
+// ------------ ex 4 -----------------
+// program to convert first letter of a string to uppercase
+// function ucFirst(str) {
+
+//     const upper = str.charAt(0).toUpperCase() + str.slice(1);
+//     return upper;
+// }
+// const str = prompt('Enter a string: ');
+// const result = ucFirst(str);
+// console.log(result);
+// -------------------- ex 5 -------------------
+
+// function extractCurrencyValue(str) {
+//   return +str.slice(1);
+// }
+// let str = prompt(" enter value: ")
+// let value = extractCurrencyValue(str);
+// console.log(value);
+
+// ----------------- ex 6 ---------------------
+
+// let x = parseInt(prompt(' give a number:'))
+
+// if (x > 0) {
+//   alert( 1 );
+// } else if (x < 0) {
+//   alert( -1 );
+// } else {
+//   alert( 0 );
+// }
+// ----------------- ex 7 ----------------
+//if (age >= 14 && age <= 90))
+//if (!(age < 14 || age > 90))
+
+// --------------- ex 8 --------------------
+// let userName = prompt("Введите логин", '');
+
+// if (userName === 'user1') {
+
+//   let pass = prompt('Введите пароль', '');
+
+//   if (pass === '1111') {
+//     alert( 'Привет' );
+//   } else if (pass === ''  pass === null) {
+//     alert( 'Ошибка валидации');
+//   } else {
+//     alert( 'Неверный пароль' );
+//   }
+
+// } else if (userName === ''  userName === null) {
+//   alert( 'Ошибка валидации' );
+// } else {
+//   alert( "Вы кто" );
+//  }
+
+ 
+// ---------------- ex 9 -------------------
+// let name = prompt('give name: ')
+// alert(`Привет ${name}`)
+// let answer = confirm("ты знаешь javascript?")
+// if (answer == true){
+// 	alert("`Молодец")
+// }else {
+// 	alert("Можно начать изучение прямо сейчас")
+// }
+// --------------- ex 10 ---------------------
+// function delitel(number){
+//     let divisors = [];
+//   for (let i = 1; i <= number; i++) {
+//     if (number % i === 0) {
+//       divisors.push(i);
+//     }
+//   }
+//   console.log(Делитель числа ${number}: ${divisors.join(', ')});
+
+// }
+
+// delitel(number = prompt(""));
+
+// -------------- ex 11 ---------------------
+//	let arr = [1, 2, 3, 4, 5];
+//	arr.forEach(function(item) {
+//		console.log(item);
+//	});
+// -------------- ex 12 -----------------
+// let arr = [1, 2, 3, 4, 5];
+//	let newArr = arr.filter(function(item) {
+//		return item % 2 === 0;
+//	});
+//	console.log(newArr);
+// ------------- ex 13 -------------------
+// let arr = [1, 2, 3, 4, 5];
+//	let newArr = arr.map(function(item) {
+//		return item * 2;
+//	});
+//	console.log(newArr);
+// --------------- ex 14 ----------------
+// let arr = [1, 2, 3, 4, 5];
+//	arr.forEach((item) => {
+//		console.log(item);
+//	});
+// ------------- ex 15 -----------------
+// let arr = [1, 2, 3];
+//	arr.forEach(function(element) {
+//		console.log(element);
+//	});
+	// Output: 1, 2, 3
+// ------------- ex 16 -----------------
+// let person = {
+//	name: "John",
+//			age: 30,
+//			hobbies: ["reading", "traveling"],
+//			sayHello: function() {
+//		console.log("Hello, my name is " + this.name);
+//	}
+//	};
+// ------------ ex 17 ------------------
+// let person = {
+//	name: "John",
+//			age: 30,
+//			hobbies: ["reading", "traveling"]
+//	};
+
+//	console.log(person.name); // Output: John
+//	console.log(person.age); // Output: 30
+//	console.log(person.hobbies); // Output: ["reading", "traveling"]
+// ------------ ex 18 ---------------
+// let person = {
+//	name: "John",
+//			age: 30,
+//			hobbies: ["reading", "traveling"]
+//	};
+
+//	console.log("name" in person); // Output: true
+//	console.log("gender" in person); // Output: false
+// ------------- ex 19 --------------
+// let person = {
+//	name: "John",
+//			age: 30,
+//			hobbies: ["reading", "traveling"]
+//	};
+
+//	console.log(person.name); // Output: John
+//	console.log(person.age); // Output: 30
+//	console.log(person.hobbies); // Output: ["reading", "traveling"]
+// ------------ ex 20 ---------------
+// const arr = [1, 2, 3, { a: 4, b: 5 }];
+//	const json = JSON.stringify(arr);
+
+//	console.log(json);
+//	Output: '[1,2,3,{"a":4,"b":5}]'
+//	const obj = {
+//		name: "John",
+//		age: 30,
+//		hobbies: ["reading", "traveling"],
+//		job: null
+//	};
+
+//	const json = JSON.stringify(obj, ["name", "hobbies"], 2);
+
+//	console.log(json);
+	/* Output:
+    {
+      "name": "John",
+      "hobbies": [
+        "reading",
+        "traveling"
+      ]
+    }
+    */
+// ---------- ex 21 ---------------
+//const obj = { name: "John", age: 30 };
+//	const json = JSON.stringify(obj);
+
+//	console.log(json);
+	// Output: '{"name":"John","age":30}'
+//	const obj = {
+//		name: "John",
+//		age: 30,
+//		hobbies: ["reading", "traveling"],
+//		job: null
+//	};
+
+//	const json = JSON.stringify(obj, ["name", "hobbies"], 2);
+
+//	console.log(json);
+	/* Output:
+    {
+      "name": "John",
+      "hobbies": [
+        "reading",
+        "traveling"
+      ]
+    }
+    */
+// ---------- ex 22 -----------
+//const json = '{"name": "John", "age": 30}';
+//	const obj = JSON.parse(json);
+
+//	console.log(obj);
+	// Output: { name: "John", age: 30 }
+// const json = '[1, 2, 3, 4, 5]';
+//	const obj = { data: JSON.parse(json) };
+
+//	console.log(obj);
+	// Output: { data: [1, 2, 3, 4, 5] }
+// ---------- ex 23 ----------
+// const jsonString = '{name:"John", age:30, city:"New York"}'; // Некорректный синтаксис
+//	try {
+//		const jsonObj = JSON.parse(jsonString);
+//		console.log(jsonObj); // этот код не выполнится
+//	} catch (error) {
+//		console.log(error); // SyntaxError: Unexpected token n in JSON at position 1
+//	}
+// ---------- ex 24 ----------
+// document.addEventListener("DOMContentLoaded", function() {
+	// Код, который будет выполнен после загрузки документа
+//	console.log("Документ полностью загружен");
+//	});
+// ---------- ex 25 ----------
+// document.addEventListener("DOMContentLoaded", function() {
+	// Код, который будет выполнен после загрузки документа
+//	console.log("Документ полностью загружен");
+//	});
+// ---------- ex 26 ---------
+//  Получаем ссылку на элемент
+//	const element = document.getElementById("example");
+
+	// Изменяем содержимое элемента
+//	element.innerHTML = "Новый текст";
+// --------- ex 27 -----------
+// // получаем родительский элемент
+//	const parent = document.querySelector('ul');
+
+	// создаем новый элемент
+//	const newElement = document.createElement('li');
+
+	// добавляем текст в новый элемент
+//	newElement.textContent = 'Новый элемент списка';
+
+	// добавляем новый элемент в конец списка
+//	parent.appendChild(newElement);
+// ----------- ex 27 ------------
+// const element = document.getElementById("myElement");
+//	element.innerHTML = "<p>Hello world!</p>";
+// ---------- ex 28 -------------
+// document.addEventListener("keydown", function(event) {
+//	console.log(`Key pressed: ${event.key}`);
+//	});
+	// document.addEventListener("keyup", function(event) {
+//	console.log(`Key released: ${event.key}`);
+//	});
+//	----------- ex 29 -------------
+// document.addEventListener("keypress", function(event) {
+//	console.log("Character typed: " + event.key);
+//	});
+	// const inputElement = document.getElementById("myInput");
+//	inputElement.addEventListener("input", function(event) {
+//		console.log("Input value changed: " + event.target.value);
+//	});
